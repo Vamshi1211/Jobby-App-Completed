@@ -1,0 +1,56 @@
+.skill-item-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+}
+@media screen and (min-width: 768px) {
+  .skill-item-container {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+}
+
+.skill-image {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (min-width: 400px) {
+  .skill-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .skill-image {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.skill-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 400px) {
+  .skill-name {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .skill-name {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skill-name {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}

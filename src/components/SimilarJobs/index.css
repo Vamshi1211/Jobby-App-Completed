@@ -1,0 +1,18 @@
+.similar-job-list-item-container {
+  background-color: #272727;
+  padding: 20px;
+  list-style-type: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-list-item-container {
+    width: 30%;
+  }
+}
+
+.similar-location-internship {
+  display: flex;
+  align-items: center;
+}
